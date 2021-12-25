@@ -1,0 +1,24 @@
+baseURL = "https://www.csd.uoc.gr/~hy548/"
+relativeURLs=true
+canonifyURLs=true
+disableKinds = ["taxonomy", "taxonomyTerm", "sitemap"]
+defaultContentLanguage = "el"
+theme = "cactus"
+
+[languages]
+  [languages.el]
+    languageName = "Ελληνικά"
+    languageCode = "el"
+    title = "ΗΥ-548: Αρχιτεκτονικές Λογισμικού για το Υπολογιστικό Νέφος"
+    description = "[Τμήμα Επιστήμης Υπολογιστών](https://www.csd.uoc.gr), [Πανεπιστήμιο Κρήτης](https://www.uoc.gr)"
+    weight = 1
+  [languages.en]
+    languageName = "English"
+    languageCode = "en"
+    title = "CS-548: Cloud-native Software Architectures"
+    description = "[Computer Science Department](https://www.csd.uoc.gr), [University of Crete](https://www.uoc.gr)"
+    weight = 2
+
+[params]
+  colortheme = "white"
+  css = ["css/custom.css"]

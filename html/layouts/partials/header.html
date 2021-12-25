@@ -1,0 +1,25 @@
+<header id="header">
+  <a href="{{ .Site.BaseURL }}">
+  <div id="title">
+    <h1>{{ .Site.Title }}</h1>
+  </div>
+  </a>
+  {{ if isset .Site.Params "description" }}
+  <h2>{{ .Site.Params.Description | markdownify }}</h2>
+  {{ end }}
+  <div id="nav">
+    <ul>
+      <li class="icon">
+        <a href="#" aria-label="Menu"><i class="fas fa-bars fa-2x" aria-hidden="true"></i></a>
+      </li>
+      {{ if .IsTranslated }}
+      {{ range .Translations }}
+      <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+      {{ end }}
+      {{ end }}
+      {{ range .Site.Menus.main }}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+</header>

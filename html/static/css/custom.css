@@ -1,0 +1,28 @@
+.max-width {
+    max-width: 100%;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+table {
+    font-size: inherit;
+}
+
+th {
+    font-size: inherit;
+}
+
+tbody {
+    vertical-align: top;
+}
+
+tr {
+    border-bottom: 1px solid #ccc;
+}
+
+td:nth-child(odd) {
+    border-right: 1px solid #ccc;
+}
