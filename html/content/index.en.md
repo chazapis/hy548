@@ -18,11 +18,14 @@ Credits
 Prerequisites
 : CS-335 (Computer Networks), CS-345 (Operating Systems) or permission from the instructor
 
-Πρόγραμμα
-: _To be defined_
+Lecture schedule
+: Monday and Wednesday 14:00-16:00, in room H.202 (spring semester 2022)
 
-Επικοινωνία:
-: _To be defined_
+Office hours
+: Wednesday 13:00-14:00, in office K319 (spring semester 2022)
+
+Contact:
+: hy548_at_csd.uoc.gr (instructor), hy548-list_at_csd.uoc.gr
 
 # Course Description
 
