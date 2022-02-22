@@ -19,7 +19,7 @@ Prerequisites
 : CS-335 (Computer Networks), CS-345 (Operating Systems) or permission from the instructor
 
 Lecture schedule
-: Monday and Wednesday 14:00-16:00, in room H.202 (spring semester 2022)
+: Monday and Wednesday 14:00-16:00, in room H.206 (spring semester 2022)
 
 Office hours
 : Wednesday 13:00-14:00, in office K319 (spring semester 2022)
