@@ -1,4 +1,4 @@
-baseURL = "https://www.csd.uoc.gr/~hy548/"
+baseURL = "/"
 relativeURLs=true
 canonifyURLs=true
 disableKinds = ["taxonomy", "taxonomyTerm", "sitemap"]
