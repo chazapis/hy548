@@ -46,7 +46,7 @@ The aim of the course is to provide a substantial understanding of how to build,
 | 1 | Introduction to cloud-native software architectures (application examples, Cloud infrastructure) [[slides](https://docs.google.com/presentation/d/1RZzmujB8rtA_11wjZfNnVb4hVxzWKhxghzOYBgE9b8g/export?format=pdf)] |
 | 2 | Container execution environments I (containers synthesis, application execution, basic Docker usage) [[slides](https://docs.google.com/presentation/d/1-8-d5m99KuEPr03yP4fWL7kJe4DpTcufIOls5J-u7Gw/export?format=pdf)] |
 | 3 | Container execution environments II (variables, files, networking, advanced Docker usage) |
-| 4 | Orchestration platforms I (introduction to Kubernetes, basics concepts, basic usage) |
+| 4 | Orchestration platforms I (introduction to Kubernetes, basics concepts, basic usage) [[slides](https://docs.google.com/presentation/d/1rbOD4FsIkqvJ5eTlu4NZgc6HNYts7JWPiuV7dhiaeRY/export?format=pdf)] |
 | 5 | Orchestration platforms II (Kubernetes abstract concepts, advanced usage) |
 | 6 | Auto-scaling and serverless (use of the auto-scaler, functions as a service) |
 | 7 | Platform components I (Kubernetes internal structure, usage and extension APIs) |
@@ -86,7 +86,7 @@ Selected Publications on Specific Relevant Topics:
 | Week | Short description |
 |---|---|
 | 1-2 | Assignment 1 (Basic Docker operations) [[available οnline](https://docs.google.com/document/d/1CYbA4eMDjy7WWEh5E5PY5DCMaEoVsfChLhlhG7RBE4o/export?format=pdf)] |
-| 3-4 | Assignment 2 (Basic Kubernetes operations) |
+| 3-4 | Assignment 2 (Basic Kubernetes operations) [[available οnline](https://docs.google.com/document/d/1pZR0EYSEoTedwCQeQ2SEzHpBks7ZeYmZyI0DKHV-t68/export?format=pdf)] |
 | 5-6 | Assignment 3 (Scaling applications in Kubernetes) |
 | 7-8 | Assignment 4 (Kubernetes extensions) |
 | 9-13 | Project. Titles will be decided in agreement with the instructor. Indicative subjects: Custom additions/extensions to Kubernetes, complete application implementation on Kubernetes with auto-scaling, use of Cloud APIs for automated application deployment, etc. |

@@ -46,7 +46,7 @@ date: 2021-12-24T18:15:26+02:00
 | 1 | Εισαγωγή στις αρχιτεκτονικές λογισμικού για το Cloud (παραδείγματα εφαρμογών, υποδομές Cloud) [[διαφάνειες](https://docs.google.com/presentation/d/1RZzmujB8rtA_11wjZfNnVb4hVxzWKhxghzOYBgE9b8g/export?format=pdf)] |
 | 2 | Περιβάλλοντα εκτέλεσης containers I (σύνθεση containers, εκτέλεση εφαρμογών, βασική χρήση του Docker) [[διαφάνειες](https://docs.google.com/presentation/d/1-8-d5m99KuEPr03yP4fWL7kJe4DpTcufIOls5J-u7Gw/export?format=pdf)] |
 | 3 | Περιβάλλοντα εκτέλεσης containers II (μεταβλητές, αρχεία, δικτύωση, προχωρημένη χρήση του Docker) |
-| 4 | Πλατφόρμες ενορχήστρωσης I (εισαγωγή στο Kubernetes, βασικά στοιχεία, βασικές εντολές) |
+| 4 | Πλατφόρμες ενορχήστρωσης I (εισαγωγή στο Kubernetes, βασικά στοιχεία, βασικές εντολές) [[διαφάνειες](https://docs.google.com/presentation/d/1rbOD4FsIkqvJ5eTlu4NZgc6HNYts7JWPiuV7dhiaeRY/export?format=pdf)] |
 | 5 | Πλατφόρμες ενορχήστρωσης II (αφηρημένες έννοιες του Kubernetes, προχωρημένη χρήση) |
 | 6 | Αυτόματη κλιμάκωση και serverless (χρήση του auto-scaler, συναρτήσεις ως υπηρεσία) |
 | 7 | Δομικά στοιχεία της πλατφόρμας I (εσωτερική οργάνωση του Kubernetes, διεπαφές χρήσης και επέκτασης) |
@@ -86,7 +86,7 @@ Containers και Kubernetes:
 | Εβδομάδα | Σύντομη περιγραφή |
 |---|---|
 | 1-2 | Άσκηση 1 (Βασικές λειτουργίες του Docker) [[διαθέσιμη οnline](https://docs.google.com/document/d/1CYbA4eMDjy7WWEh5E5PY5DCMaEoVsfChLhlhG7RBE4o/export?format=pdf)] |
-| 3-4 | Άσκηση 2 (Βασικές λειτουργίες του Kubernetes) |
+| 3-4 | Άσκηση 2 (Βασικές λειτουργίες του Kubernetes) [[διαθέσιμη οnline](https://docs.google.com/document/d/1pZR0EYSEoTedwCQeQ2SEzHpBks7ZeYmZyI0DKHV-t68/export?format=pdf)] |
 | 5-6 | Άσκηση 3 (Κλιμάκωση εφαρμογών στο Kubernetes) |
 | 7-8 | Άσκηση 4 (Επεκτάσεις του Kubernetes) |
 | 9-13 | Εργασία. Τα θέματα θα αποφασιστούν σε συνεννόηση με τον διδάσκοντα. Ενδεικτικά: Προσαρμοσμένες προσθήκες/επεκτάσεις του Kubernetes, υλοποίηση ολοκληρωμένης εφαρμογής στο Kubernetes με αυτόματη κλιμάκωση, χρήση APIs του Cloud για αυτόματη εκτέλεση εφαρμογών, κτλ. |
