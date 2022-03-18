@@ -1,0 +1,40 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: ubuntu-pvc
+spec:
+  storageClassName: ""
+  volumeName: ubuntu-pv
+  accessModes: [ReadWriteOnce]
+  resources:
+    requests:
+      storage: 1Gi
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: ubuntu-pv
+spec:
+  accessModes: [ReadWriteOnce]
+  capacity:
+    storage: 1Gi
+  hostPath:
+    path: /Users/chazapis/test
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ubuntu
+spec:
+  containers:
+  - name: ubuntu
+    image: ubuntu:20.04
+    command: ["sleep"]
+    args: ["infinity"]
+    volumeMounts:
+    - mountPath: /root/test
+      name: test-volume
+  volumes:
+  - name: test-volume
+    persistentVolumeClaim:
+      claimName: ubuntu-pvc

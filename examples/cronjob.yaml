@@ -1,0 +1,15 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: job-repeating
+spec:
+  schedule: "* * * * *" # Run every minute
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          restartPolicy: OnFailure
+          containers:
+          - name: alpine
+            image: alpine:3.15.0
+            args: ["ls", "-la"]

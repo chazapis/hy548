@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: oneshot
+spec:
+  template:
+    spec:
+      restartPolicy: OnFailure
+      containers:
+      - name: alpine
+        image: alpine:3.15.0
+        args: # Docker image CMD
+        - "ls"
+        - "-la"

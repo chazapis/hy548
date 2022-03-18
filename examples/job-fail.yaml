@@ -1,0 +1,15 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: oneshot-fail
+spec:
+  template:
+    spec:
+      restartPolicy: OnFailure # Try also with Never
+      containers:
+      - name: alpine
+        image: alpine:3.15.0
+        args:
+        - "/bin/sh"
+        - "-c"
+        - "exit 1"
