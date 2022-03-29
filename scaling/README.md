@@ -35,7 +35,7 @@ kubectl -n kube-system edit deployments.apps metrics-server
 
 ## Basic usage
 
-Verify the the application is working, by visiting http://127.0.0.1/hello.
+Verify the application is working, by visiting http://127.0.0.1/hello.
 
 Open Locust at http://127.0.0.1.
 
