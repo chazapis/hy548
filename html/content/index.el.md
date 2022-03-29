@@ -43,19 +43,15 @@ date: 2021-12-24T18:15:26+02:00
 
 | Εβδομάδα | Σύντομη περιγραφή ύλης διδακτικής εβδομάδας |
 |---|---|
-| 1 | Εισαγωγή στις αρχιτεκτονικές λογισμικού για το Cloud (παραδείγματα εφαρμογών, υποδομές Cloud) [[διαφάνειες](https://docs.google.com/presentation/d/1RZzmujB8rtA_11wjZfNnVb4hVxzWKhxghzOYBgE9b8g/export?format=pdf)] |
-| 2 | Περιβάλλοντα εκτέλεσης containers I (σύνθεση containers, εκτέλεση εφαρμογών, βασική χρήση του Docker) [[διαφάνειες](https://docs.google.com/presentation/d/1-8-d5m99KuEPr03yP4fWL7kJe4DpTcufIOls5J-u7Gw/export?format=pdf)] |
-| 3 | Περιβάλλοντα εκτέλεσης containers II (μεταβλητές, αρχεία, δικτύωση, προχωρημένη χρήση του Docker) |
-| 4 | Πλατφόρμες ενορχήστρωσης I (εισαγωγή στο Kubernetes, βασικά στοιχεία, βασικές εντολές) [[διαφάνειες](https://docs.google.com/presentation/d/1rbOD4FsIkqvJ5eTlu4NZgc6HNYts7JWPiuV7dhiaeRY/export?format=pdf)] |
-| 5 | Πλατφόρμες ενορχήστρωσης II (αφηρημένες έννοιες του Kubernetes, προχωρημένη χρήση) |
-| 6 | Αυτόματη κλιμάκωση και serverless (χρήση του auto-scaler, συναρτήσεις ως υπηρεσία) |
-| 7 | Δομικά στοιχεία της πλατφόρμας I (εσωτερική οργάνωση του Kubernetes, διεπαφές χρήσης και επέκτασης) |
-| 8 | Δομικά στοιχεία της πλατφόρμας II (χρονοπρογραμματιστής, τελεστές) |
-| 9 | Δομικά στοιχεία της πλατφόρμας III (CNI, CSI, διαδικτύωση μεταξύ εγκαταστάσεων, ενσωμάτωση του Edge) |
-| 10 | Πλατφόρμες στο Cloud I (προσφερόμενες υπηρεσίες, διεπαφές χρήσης) |
-| 11 | Πλατφόρμες στο Cloud II (παραδείγματα εφαρμογών) |
-| 12 | Επισκόπηση αρχιτεκτονικών λογισμικού για το Cloud (αναφορές σε τρέχουσες και μελλοντικές εξελίξεις) |
-| 13 | Παρουσιάσεις εργασιών |
+| 1 | Εισαγωγή στις αρχιτεκτονικές λογισμικού για το Cloud (παραδείγματα εφαρμογών, η ανάγκη για DevOps, υποδομές Cloud) [[διαφάνειες](https://docs.google.com/presentation/d/1RZzmujB8rtA_11wjZfNnVb4hVxzWKhxghzOYBgE9b8g/export?format=pdf)] |
+| 2-3 | Περιβάλλοντα εκτέλεσης containers (χρήση του Docker: σύνθεση containers, εκτέλεση εφαρμογών, μεταβλητές, αρχεία, δικτύωση) [[διαφάνειες](https://docs.google.com/presentation/d/1-8-d5m99KuEPr03yP4fWL7kJe4DpTcufIOls5J-u7Gw/export?format=pdf)] |
+| 4-5 | Πλατφόρμες ενορχήστρωσης (χρήση του Kubernetes: εντολές, αφηρημένες έννοιες, σύνθεση υπηρεσιών) [[διαφάνειες](https://docs.google.com/presentation/d/1rbOD4FsIkqvJ5eTlu4NZgc6HNYts7JWPiuV7dhiaeRY/export?format=pdf)] [[παραδείγματα](https://github.com/chazapis/hy548/tree/master/examples)] |
+| 6 | Αυτόματη κλιμάκωση και serverless (χρήση του autoscaler, συναρτήσεις ως υπηρεσία) [[παράδειγμα scaling](https://github.com/chazapis/hy548/tree/master/scaling)] [[παράδειγμα serverless](https://github.com/chazapis/hy548/tree/master/serverless)] |
+| 7-9 | Δομικά στοιχεία της πλατφόρμας (εσωτερική οργάνωση του Kubernetes, διεπαφές χρήσης και επέκτασης, χρονοπρογραμματιστής, τελεστές, CNI, CSI, διαδικτύωση μεταξύ εγκαταστάσεων, ενσωμάτωση του Edge) |
+| 10-12 | Παρουσιάσεις εργασιών |
+| 13 | Πλατφόρμες στο Cloud (προσφερόμενες υπηρεσίες, διεπαφές χρήσης, αναφορές σε τρέχουσες και μελλοντικές εξελίξεις) |
+
+Άλλες παρουσιάσεις: [[Helm](https://docs.google.com/presentation/d/1sX4Na8tyYyiXskRGMW19F0cNjkmdqwDfc2IJqzosNB4/export?format=pdf)]
 
 # Προτεινόμενα Συγγράμματα
 

@@ -43,19 +43,15 @@ The aim of the course is to provide a substantial understanding of how to build,
 
 | Week | Short description |
 |---|---|
-| 1 | Introduction to cloud-native software architectures (application examples, Cloud infrastructure) [[slides](https://docs.google.com/presentation/d/1RZzmujB8rtA_11wjZfNnVb4hVxzWKhxghzOYBgE9b8g/export?format=pdf)] |
-| 2 | Container execution environments I (containers synthesis, application execution, basic Docker usage) [[slides](https://docs.google.com/presentation/d/1-8-d5m99KuEPr03yP4fWL7kJe4DpTcufIOls5J-u7Gw/export?format=pdf)] |
-| 3 | Container execution environments II (variables, files, networking, advanced Docker usage) |
-| 4 | Orchestration platforms I (introduction to Kubernetes, basics concepts, basic usage) [[slides](https://docs.google.com/presentation/d/1rbOD4FsIkqvJ5eTlu4NZgc6HNYts7JWPiuV7dhiaeRY/export?format=pdf)] |
-| 5 | Orchestration platforms II (Kubernetes abstract concepts, advanced usage) |
-| 6 | Auto-scaling and serverless (use of the auto-scaler, functions as a service) |
-| 7 | Platform components I (Kubernetes internal structure, usage and extension APIs) |
-| 8 | Platform components II (scheduler, operators) |
-| 9 | Platform components III (CNI, CSI, intra-platform networking, Edge integration) |
-| 10 | Cloud platforms I (services offered, APIs) |
-| 11 | Cloud platforms II (application examples) |
-| 12 | Overview of cloud-native software architectures (current and future developments) |
-| 13 | Project presentations |
+| 1 | Introduction to cloud-native software architectures (application examples, the need for DevOps, Cloud infrastructure) [[slides](https://docs.google.com/presentation/d/1RZzmujB8rtA_11wjZfNnVb4hVxzWKhxghzOYBgE9b8g/export?format=pdf)] |
+| 2-3 | Container execution environments (Docker usage: container synthesis, application execution, variables, files, networking) [[slides](https://docs.google.com/presentation/d/1-8-d5m99KuEPr03yP4fWL7kJe4DpTcufIOls5J-u7Gw/export?format=pdf)] |
+| 4-5 | Orchestration platforms (Kubernetes usage: commands, abstract concepts, service composition) [[slides](https://docs.google.com/presentation/d/1rbOD4FsIkqvJ5eTlu4NZgc6HNYts7JWPiuV7dhiaeRY/export?format=pdf)] [[examples](https://github.com/chazapis/hy548/tree/master/examples)] |
+| 6 | Auto-scaling and serverless (use of the autoscaler, functions as a service) [[scaling example](https://github.com/chazapis/hy548/tree/master/scaling)] [[serverless example](https://github.com/chazapis/hy548/tree/master/serverless)] |
+| 7-9 | Platform components (Kubernetes internal structure, usage and extension APIs, scheduler, operators, CNI, CSI, intra-platform networking, Edge integration) |
+| 10-12 | Project presentations |
+| 13 | Cloud platforms (services offered, APIs, current and future developments) |
+
+Other presentations: [[Helm](https://docs.google.com/presentation/d/1sX4Na8tyYyiXskRGMW19F0cNjkmdqwDfc2IJqzosNB4/export?format=pdf)]
 
 # Suggested Reading
 
