@@ -43,15 +43,15 @@ date: 2021-12-24T18:15:26+02:00
 
 | Εβδομάδα | Σύντομη περιγραφή ύλης διδακτικής εβδομάδας |
 |---|---|
-| 1 | Εισαγωγή στις αρχιτεκτονικές λογισμικού για το Cloud (παραδείγματα εφαρμογών, η ανάγκη για DevOps, υποδομές Cloud) [[διαφάνειες](https://docs.google.com/presentation/d/1RZzmujB8rtA_11wjZfNnVb4hVxzWKhxghzOYBgE9b8g/export?format=pdf)] |
-| 2-3 | Περιβάλλοντα εκτέλεσης containers (χρήση του Docker: σύνθεση containers, εκτέλεση εφαρμογών, μεταβλητές, αρχεία, δικτύωση) [[διαφάνειες](https://docs.google.com/presentation/d/1-8-d5m99KuEPr03yP4fWL7kJe4DpTcufIOls5J-u7Gw/export?format=pdf)] |
-| 4-5 | Πλατφόρμες ενορχήστρωσης (χρήση του Kubernetes: εντολές, αφηρημένες έννοιες, σύνθεση υπηρεσιών) [[διαφάνειες](https://docs.google.com/presentation/d/1rbOD4FsIkqvJ5eTlu4NZgc6HNYts7JWPiuV7dhiaeRY/export?format=pdf)] [[παραδείγματα](https://github.com/chazapis/hy548/tree/master/examples)] |
+| 1 | Εισαγωγή στις αρχιτεκτονικές λογισμικού για το Cloud (παραδείγματα εφαρμογών, η ανάγκη για DevOps, υποδομές Cloud) [[διαφάνειες](https://docs.google.com/presentation/d/1RZzmujB8rtA_11wjZfNnVb4hVxzWKhxghzOYBgE9b8g/edit?usp=sharing)] |
+| 2-3 | Περιβάλλοντα εκτέλεσης containers (χρήση του Docker: σύνθεση containers, εκτέλεση εφαρμογών, μεταβλητές, αρχεία, δικτύωση) [[διαφάνειες](https://docs.google.com/presentation/d/1-8-d5m99KuEPr03yP4fWL7kJe4DpTcufIOls5J-u7Gw/edit?usp=sharing)] |
+| 4-5 | Πλατφόρμες ενορχήστρωσης (χρήση του Kubernetes: εντολές, αφηρημένες έννοιες, σύνθεση υπηρεσιών) [[διαφάνειες](https://docs.google.com/presentation/d/1rbOD4FsIkqvJ5eTlu4NZgc6HNYts7JWPiuV7dhiaeRY/edit?usp=sharing)] [[παραδείγματα](https://github.com/chazapis/hy548/tree/master/examples)] |
 | 6 | Αυτόματη κλιμάκωση και serverless (χρήση του autoscaler, συναρτήσεις ως υπηρεσία) [[παράδειγμα scaling](https://github.com/chazapis/hy548/tree/master/scaling)] [[παράδειγμα serverless](https://github.com/chazapis/hy548/tree/master/serverless)] |
 | 7-9 | Δομικά στοιχεία της πλατφόρμας (εσωτερική οργάνωση του Kubernetes, διεπαφές χρήσης και επέκτασης, χρονοπρογραμματιστής, τελεστές, CNI, CSI, διαδικτύωση μεταξύ εγκαταστάσεων, ενσωμάτωση του Edge) |
 | 10-12 | Παρουσιάσεις εργασιών |
 | 13 | Πλατφόρμες στο Cloud (προσφερόμενες υπηρεσίες, διεπαφές χρήσης, αναφορές σε τρέχουσες και μελλοντικές εξελίξεις) |
 
-Άλλες παρουσιάσεις: [[Helm](https://docs.google.com/presentation/d/1sX4Na8tyYyiXskRGMW19F0cNjkmdqwDfc2IJqzosNB4/export?format=pdf)]
+Άλλες παρουσιάσεις: [[Helm](https://docs.google.com/presentation/d/1sX4Na8tyYyiXskRGMW19F0cNjkmdqwDfc2IJqzosNB4/edit?usp=sharing)]
 
 # Προτεινόμενα Συγγράμματα
 
@@ -81,9 +81,9 @@ Containers και Kubernetes:
 
 | Εβδομάδα | Σύντομη περιγραφή |
 |---|---|
-| 1-2 | Άσκηση 1 (Βασικές λειτουργίες του Docker) [[διαθέσιμη οnline](https://docs.google.com/document/d/1CYbA4eMDjy7WWEh5E5PY5DCMaEoVsfChLhlhG7RBE4o/export?format=pdf)] |
-| 3-4 | Άσκηση 2 (Βασικές λειτουργίες του Kubernetes) [[διαθέσιμη οnline](https://docs.google.com/document/d/1pZR0EYSEoTedwCQeQ2SEzHpBks7ZeYmZyI0DKHV-t68/export?format=pdf)] |
-| 5-6 | Άσκηση 3 (Κλιμάκωση εφαρμογών στο Kubernetes) |
+| 1-2 | Άσκηση 1 (Βασικές λειτουργίες του Docker) [[διαθέσιμη οnline](https://docs.google.com/document/d/1CYbA4eMDjy7WWEh5E5PY5DCMaEoVsfChLhlhG7RBE4o/edit?usp=sharing)] |
+| 3-4 | Άσκηση 2 (Βασικές λειτουργίες του Kubernetes) [[διαθέσιμη οnline](https://docs.google.com/document/d/1pZR0EYSEoTedwCQeQ2SEzHpBks7ZeYmZyI0DKHV-t68/edit?usp=sharing)] |
+| 5-6 | Άσκηση 3 (Κλιμάκωση εφαρμογών στο Kubernetes) [[διαθέσιμη οnline](https://docs.google.com/document/d/1abapoLZQYAE7-xxr0UOiY0nXzuCg6biJYSwJTyo6xJE/edit?usp=sharing)] |
 | 7-8 | Άσκηση 4 (Επεκτάσεις του Kubernetes) |
 | 9-13 | Εργασία. Τα θέματα θα αποφασιστούν σε συνεννόηση με τον διδάσκοντα. Ενδεικτικά: Προσαρμοσμένες προσθήκες/επεκτάσεις του Kubernetes, υλοποίηση ολοκληρωμένης εφαρμογής στο Kubernetes με αυτόματη κλιμάκωση, χρήση APIs του Cloud για αυτόματη εκτέλεση εφαρμογών, κτλ. |
 

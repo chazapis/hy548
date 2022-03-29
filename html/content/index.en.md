@@ -43,15 +43,15 @@ The aim of the course is to provide a substantial understanding of how to build,
 
 | Week | Short description |
 |---|---|
-| 1 | Introduction to cloud-native software architectures (application examples, the need for DevOps, Cloud infrastructure) [[slides](https://docs.google.com/presentation/d/1RZzmujB8rtA_11wjZfNnVb4hVxzWKhxghzOYBgE9b8g/export?format=pdf)] |
-| 2-3 | Container execution environments (Docker usage: container synthesis, application execution, variables, files, networking) [[slides](https://docs.google.com/presentation/d/1-8-d5m99KuEPr03yP4fWL7kJe4DpTcufIOls5J-u7Gw/export?format=pdf)] |
-| 4-5 | Orchestration platforms (Kubernetes usage: commands, abstract concepts, service composition) [[slides](https://docs.google.com/presentation/d/1rbOD4FsIkqvJ5eTlu4NZgc6HNYts7JWPiuV7dhiaeRY/export?format=pdf)] [[examples](https://github.com/chazapis/hy548/tree/master/examples)] |
+| 1 | Introduction to cloud-native software architectures (application examples, the need for DevOps, Cloud infrastructure) [[slides](https://docs.google.com/presentation/d/1RZzmujB8rtA_11wjZfNnVb4hVxzWKhxghzOYBgE9b8g/edit?usp=sharing)] |
+| 2-3 | Container execution environments (Docker usage: container synthesis, application execution, variables, files, networking) [[slides](https://docs.google.com/presentation/d/1-8-d5m99KuEPr03yP4fWL7kJe4DpTcufIOls5J-u7Gw/edit?usp=sharing)] |
+| 4-5 | Orchestration platforms (Kubernetes usage: commands, abstract concepts, service composition) [[slides](https://docs.google.com/presentation/d/1rbOD4FsIkqvJ5eTlu4NZgc6HNYts7JWPiuV7dhiaeRY/edit?usp=sharing)] [[examples](https://github.com/chazapis/hy548/tree/master/examples)] |
 | 6 | Auto-scaling and serverless (use of the autoscaler, functions as a service) [[scaling example](https://github.com/chazapis/hy548/tree/master/scaling)] [[serverless example](https://github.com/chazapis/hy548/tree/master/serverless)] |
 | 7-9 | Platform components (Kubernetes internal structure, usage and extension APIs, scheduler, operators, CNI, CSI, intra-platform networking, Edge integration) |
 | 10-12 | Project presentations |
 | 13 | Cloud platforms (services offered, APIs, current and future developments) |
 
-Other presentations: [[Helm](https://docs.google.com/presentation/d/1sX4Na8tyYyiXskRGMW19F0cNjkmdqwDfc2IJqzosNB4/export?format=pdf)]
+Other presentations: [[Helm](https://docs.google.com/presentation/d/1sX4Na8tyYyiXskRGMW19F0cNjkmdqwDfc2IJqzosNB4/edit?usp=sharing)]
 
 # Suggested Reading
 
@@ -81,9 +81,9 @@ Selected Publications on Specific Relevant Topics:
 
 | Week | Short description |
 |---|---|
-| 1-2 | Assignment 1 (Basic Docker operations) [[available οnline](https://docs.google.com/document/d/1CYbA4eMDjy7WWEh5E5PY5DCMaEoVsfChLhlhG7RBE4o/export?format=pdf)] |
-| 3-4 | Assignment 2 (Basic Kubernetes operations) [[available οnline](https://docs.google.com/document/d/1pZR0EYSEoTedwCQeQ2SEzHpBks7ZeYmZyI0DKHV-t68/export?format=pdf)] |
-| 5-6 | Assignment 3 (Scaling applications in Kubernetes) |
+| 1-2 | Assignment 1 (Basic Docker operations) [[available οnline](https://docs.google.com/document/d/1CYbA4eMDjy7WWEh5E5PY5DCMaEoVsfChLhlhG7RBE4o/edit?usp=sharing)] |
+| 3-4 | Assignment 2 (Basic Kubernetes operations) [[available οnline](https://docs.google.com/document/d/1pZR0EYSEoTedwCQeQ2SEzHpBks7ZeYmZyI0DKHV-t68/edit?usp=sharing)] |
+| 5-6 | Assignment 3 (Scaling applications in Kubernetes) [[available οnline](https://docs.google.com/document/d/1abapoLZQYAE7-xxr0UOiY0nXzuCg6biJYSwJTyo6xJE/edit?usp=sharing)] |
 | 7-8 | Assignment 4 (Kubernetes extensions) |
 | 9-13 | Project. Titles will be decided in agreement with the instructor. Indicative subjects: Custom additions/extensions to Kubernetes, complete application implementation on Kubernetes with auto-scaling, use of Cloud APIs for automated application deployment, etc. |
 
