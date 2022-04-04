@@ -51,7 +51,7 @@ The aim of the course is to provide a substantial understanding of how to build,
 | 10-12 | Project presentations |
 | 13 | Cloud platforms (services offered, APIs, current and future developments) |
 
-Other presentations: [[Helm](https://docs.google.com/presentation/d/1sX4Na8tyYyiXskRGMW19F0cNjkmdqwDfc2IJqzosNB4/edit?usp=sharing)]
+Other presentations: [[Helm](https://docs.google.com/presentation/d/1sX4Na8tyYyiXskRGMW19F0cNjkmdqwDfc2IJqzosNB4/edit?usp=sharing)] [[Operator Framework](https://docs.google.com/presentation/d/1KhInA-3lga7bjPX6BeZo0I1SoOXNZLvQEgsYa-8JGIA/edit?usp=sharing)]
 
 # Suggested Reading
 

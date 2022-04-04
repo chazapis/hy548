@@ -51,7 +51,7 @@ date: 2021-12-24T18:15:26+02:00
 | 10-12 | Παρουσιάσεις εργασιών |
 | 13 | Πλατφόρμες στο Cloud (προσφερόμενες υπηρεσίες, διεπαφές χρήσης, αναφορές σε τρέχουσες και μελλοντικές εξελίξεις) |
 
-Άλλες παρουσιάσεις: [[Helm](https://docs.google.com/presentation/d/1sX4Na8tyYyiXskRGMW19F0cNjkmdqwDfc2IJqzosNB4/edit?usp=sharing)]
+Άλλες παρουσιάσεις: [[Helm](https://docs.google.com/presentation/d/1sX4Na8tyYyiXskRGMW19F0cNjkmdqwDfc2IJqzosNB4/edit?usp=sharing)] [[Operator Framework](https://docs.google.com/presentation/d/1KhInA-3lga7bjPX6BeZo0I1SoOXNZLvQEgsYa-8JGIA/edit?usp=sharing)]
 
 # Προτεινόμενα Συγγράμματα
 
