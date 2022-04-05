@@ -47,7 +47,7 @@ date: 2021-12-24T18:15:26+02:00
 | 2-3 | Περιβάλλοντα εκτέλεσης containers (χρήση του Docker: σύνθεση containers, εκτέλεση εφαρμογών, μεταβλητές, αρχεία, δικτύωση) [[διαφάνειες](https://docs.google.com/presentation/d/1-8-d5m99KuEPr03yP4fWL7kJe4DpTcufIOls5J-u7Gw/edit?usp=sharing)] |
 | 4-5 | Πλατφόρμες ενορχήστρωσης (χρήση του Kubernetes: εντολές, αφηρημένες έννοιες, σύνθεση υπηρεσιών) [[διαφάνειες](https://docs.google.com/presentation/d/1rbOD4FsIkqvJ5eTlu4NZgc6HNYts7JWPiuV7dhiaeRY/edit?usp=sharing)] [[παραδείγματα](https://github.com/chazapis/hy548/tree/master/examples)] |
 | 6 | Αυτόματη κλιμάκωση και serverless (χρήση του autoscaler, συναρτήσεις ως υπηρεσία) [[παράδειγμα scaling](https://github.com/chazapis/hy548/tree/master/scaling)] [[παράδειγμα serverless](https://github.com/chazapis/hy548/tree/master/serverless)] |
-| 7-9 | Δομικά στοιχεία της πλατφόρμας (εσωτερική οργάνωση του Kubernetes, διεπαφές χρήσης και επέκτασης, χρονοπρογραμματιστής, τελεστές, CNI, CSI, διαδικτύωση μεταξύ εγκαταστάσεων, ενσωμάτωση του Edge) |
+| 7-9 | Δομικά στοιχεία της πλατφόρμας (εσωτερική οργάνωση του Kubernetes, διεπαφές χρήσης και επέκτασης, χρονοπρογραμματιστής, τελεστές, CNI, CSI, διαδικτύωση μεταξύ εγκαταστάσεων, ενσωμάτωση του Edge) [[παράδειγμα CRD](https://github.com/chazapis/hy548/tree/master/crds)] [[παράδειγμα webhook](https://github.com/chazapis/hy548/tree/master/webhooks)] |
 | 10-12 | Παρουσιάσεις εργασιών |
 | 13 | Πλατφόρμες στο Cloud (προσφερόμενες υπηρεσίες, διεπαφές χρήσης, αναφορές σε τρέχουσες και μελλοντικές εξελίξεις) |
 

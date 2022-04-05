@@ -1,6 +1,6 @@
 # Webhook example in minikube
 
-This is an example of an mutating webhook for Kubernetes.
+This is an example of a mutating webhook for Kubernetes.
 
 ## Setup
 
