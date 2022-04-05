@@ -1,0 +1,15 @@
+apiVersion: hy548.csd.uoc.gr/v1
+kind: Greeting
+metadata:
+  name: hello-world
+spec:
+  message: "Hello world!"
+  replicas: 2
+---
+apiVersion: hy548.csd.uoc.gr/v1
+kind: Greeting
+metadata:
+  name: hello-to-all
+spec:
+  message: "Hello to all!"
+  replicas: 3
