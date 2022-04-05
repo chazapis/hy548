@@ -1,4 +1,2 @@
 .DS_Store
-html/.hugo_build.lock
-html/resources
-html/public
+venv/
