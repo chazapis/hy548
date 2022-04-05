@@ -1,0 +1,157 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: custom-label-injector
+  labels:
+    app: custom-label-injector
+---
+apiVersion: cert-manager.io/v1
+kind: Issuer
+metadata:
+  name: issuer-selfsigned
+  namespace: custom-label-injector
+  labels:
+    app: custom-label-injector
+spec:
+  selfSigned: {}
+---
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: controller-certificate
+  namespace: custom-label-injector
+  labels:
+    app: custom-label-injector
+spec:
+  secretName: controller-certificate
+  duration: 87600h
+  commonName: controller.custom-label-injector.svc
+  dnsNames:
+  - controller.custom-label-injector.svc
+  privateKey:
+    algorithm: RSA
+    size: 2048
+  issuerRef:
+    name: issuer-selfsigned
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: controller
+  namespace: custom-label-injector
+  labels:
+    app: custom-label-injector
+spec:
+  type: ClusterIP
+  ports:
+    - port: 443
+      name: https
+  selector:
+    app: custom-label-injector
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: controller-proxy-config
+  namespace: custom-label-injector
+  labels:
+    app: custom-label-injector
+data:
+  default.conf: |
+    log_format custom '$remote_addr - $sent_http_x_log_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" "$http_user_agent"';
+
+    server {
+        listen 443 ssl;
+        server_name controller.custom-label-injector.svc;
+
+        access_log /var/log/nginx/access.log custom;
+
+        ssl_certificate         /etc/ssl/keys/tls.crt;
+        ssl_certificate_key     /etc/ssl/keys/tls.key;
+
+        ssl_session_cache       builtin:1000 shared:SSL:10m;
+        ssl_protocols           TLSv1 TLSv1.1 TLSv1.2;
+        ssl_ciphers             HIGH:!aNULL:!eNULL:!EXPORT:!CAMELLIA:!DES:!MD5:!PSK:!RC4;
+        ssl_prefer_server_ciphers on;
+
+        location / {
+            proxy_set_header    Host $host;
+            proxy_set_header    X-Real-IP $remote_addr;
+            proxy_set_header    X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header    X-Forwarded-Proto $scheme;
+            proxy_pass          http://192.168.1.1:8000;
+            proxy_read_timeout  10;
+            proxy_redirect      http://192.168.1.1:8000 https://controller.custom-label-injector.svc;
+        }
+    }
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: controller
+  namespace: custom-label-injector
+  labels:
+    app: custom-label-injector
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: custom-label-injector
+  template:
+    metadata:
+      labels:
+        app: custom-label-injector
+    spec:
+      containers:
+      - image: nginx:1.19.6-alpine
+        name: proxy
+        env:
+        - name: NGINX_ENTRYPOINT_QUIET_LOGS
+          value: "1"
+        ports:
+        - containerPort: 443
+          name: https
+        volumeMounts:
+        - name: controller-certificate-volume
+          mountPath: /etc/ssl/keys
+          readOnly: true
+        - name: controller-proxy-config-volume
+          mountPath: /etc/nginx/conf.d/default.conf
+          subPath: default.conf
+      volumes:
+      - name: controller-certificate-volume
+        secret:
+          secretName: controller-certificate
+      - name: controller-proxy-config-volume
+        configMap:
+          name: controller-proxy-config
+          defaultMode: 0644
+---
+apiVersion: admissionregistration.k8s.io/v1
+kind: MutatingWebhookConfiguration
+metadata:
+  name: custom-label-injector
+  namespace: custom-label-injector
+  labels:
+    app: custom-label-injector
+  annotations:
+    cert-manager.io/inject-ca-from: custom-label-injector/controller-certificate
+webhooks:
+  - name: controller.custom-label-injector.svc
+    clientConfig:
+      service:
+        name: controller
+        namespace: custom-label-injector
+        path: "/mutate"
+    rules:
+      - operations: ["CREATE"]
+        apiGroups: ["*"]
+        apiVersions: ["*"]
+        resources: ["pods", "deployments"]
+    namespaceSelector:
+      matchLabels:
+        custom-label-injector: enabled
+    admissionReviewVersions: ["v1", "v1beta1"]
+    sideEffects: None
+    failurePolicy: Fail
