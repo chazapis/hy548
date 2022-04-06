@@ -28,7 +28,7 @@ def mutate():
                    'kind': 'AdmissionReview',
                    'response': {'uid': uid,
                                 'allowed': True,
-                                'status': {'message': 'Adding Karvdash volumes and API settings'},
+                                'status': {'message': 'Adding extra label'},
                                 'patchType': 'JSONPatch',
                                 'patch': encoded_patch}})
 

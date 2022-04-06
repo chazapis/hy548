@@ -23,7 +23,7 @@ pip install -r requirements.txt
 Get your local IP, replace it in where `192.168.1.1` is mentioned in `webhook.yaml`, and apply:
 ```
 IP_ADDRESS=10.0.0.1
-sed "s/192.168.1.1/${IP_ADDRESS}/" webhook.yaml | kubectl apply -
+sed "s/192.168.1.1/${IP_ADDRESS}/" webhook.yaml | kubectl apply -f -
 ```
 
 This will create the `custom-label-injector` namespace and a mutating webhook proxy that will forward all requests locally.
