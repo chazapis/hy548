@@ -6,7 +6,7 @@ This is an example showcasing custom resources in Kubernetes. We also build a ve
 
 Start minikube, setup, and create the CRD:
 ```
-minikube start --kubernetes-version=1.22.4 --extra-config=kubelet.housekeeping-interval=10s
+minikube start --kubernetes-version=1.22.4
 kubectl apply -f greeting-crd.yaml
 ```
 
@@ -33,11 +33,6 @@ And manage them like any other Kubernetes resource:
 ```
 kubectl delete greeting hello-world
 kubectl delete greeting hello-to-all
-```
-
-You can change the metrics resolution by running the following, and setting `--metric-resolution=5s` in the container args:
-```
-kubectl -n kube-system edit deployments.apps metrics-server
 ```
 
 ## Controller

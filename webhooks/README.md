@@ -6,7 +6,7 @@ This is an example of a mutating webhook for Kubernetes.
 
 Start minikube and install [cert-manager](https://cert-manager.io):
 ```
-minikube start --kubernetes-version=1.22.4 --extra-config=kubelet.housekeeping-interval=10s
+minikube start --kubernetes-version=1.22.4
 helm repo add jetstack https://charts.jetstack.io
 helm install cert-manager jetstack/cert-manager --namespace cert-manager --create-namespace --version v1.7.2 --set installCRDs=true
 ```
