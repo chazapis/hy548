@@ -49,7 +49,7 @@ date: 2021-12-24T18:15:26+02:00
 | 6 | Αυτόματη κλιμάκωση και serverless (χρήση του autoscaler, συναρτήσεις ως υπηρεσία) [[παράδειγμα scaling](https://github.com/chazapis/hy548/tree/master/scaling)] [[παράδειγμα serverless](https://github.com/chazapis/hy548/tree/master/serverless)] |
 | 7-9 | Δομικά στοιχεία της πλατφόρμας (εσωτερική οργάνωση του Kubernetes, διεπαφές χρήσης και επέκτασης, χρονοπρογραμματιστής, τελεστές, CNI, CSI, διαδικτύωση μεταξύ εγκαταστάσεων, ενσωμάτωση του Edge) [[διαφάνειες CRI, CNI, CSI](https://docs.google.com/presentation/d/143pYlJpSSmAO3VMlkR0xCIz4Ik5WEBgUoH-T9BS_-YE/edit?usp=sharing)] [[διαφάνειες scheduler](https://docs.google.com/presentation/d/17Mu-VYD1N0n8Dlz8XRBcxar32GPPp3YP/edit?usp=sharing&ouid=113659041026588075056&rtpof=true&sd=true)] [[παράδειγμα CRD](https://github.com/chazapis/hy548/tree/master/crds)] [[παράδειγμα webhook](https://github.com/chazapis/hy548/tree/master/webhooks)] |
 | 10-12 | Παρουσιάσεις εργασιών |
-| 13 | Πλατφόρμες στο Cloud (προσφερόμενες υπηρεσίες, διεπαφές χρήσης, αναφορές σε τρέχουσες και μελλοντικές εξελίξεις) |
+| 13 | Πλατφόρμες στο Cloud (προσφερόμενες υπηρεσίες, διεπαφές χρήσης), επισκόπηση μαθήματος [[διαφάνειες](https://docs.google.com/presentation/d/15nMhkmO5X5QNrJ4_NXVXm-cIcIs9pyYK5hppM1bCpvA/edit?usp=sharing)] |
 
 Άλλες παρουσιάσεις: [[Helm](https://docs.google.com/presentation/d/1sX4Na8tyYyiXskRGMW19F0cNjkmdqwDfc2IJqzosNB4/edit?usp=sharing)] [[Operator Framework](https://docs.google.com/presentation/d/1KhInA-3lga7bjPX6BeZo0I1SoOXNZLvQEgsYa-8JGIA/edit?usp=sharing)]
 
@@ -86,7 +86,7 @@ Containers και Kubernetes:
 | 3-4 | Άσκηση 2 (Βασικές λειτουργίες του Kubernetes) [[διαθέσιμη οnline](https://docs.google.com/document/d/1pZR0EYSEoTedwCQeQ2SEzHpBks7ZeYmZyI0DKHV-t68/edit?usp=sharing)] |
 | 5-6 | Άσκηση 3 (Κλιμάκωση εφαρμογών στο Kubernetes) [[διαθέσιμη οnline](https://docs.google.com/document/d/1abapoLZQYAE7-xxr0UOiY0nXzuCg6biJYSwJTyo6xJE/edit?usp=sharing)] |
 | 7-8 | Άσκηση 4 (Επεκτάσεις του Kubernetes) [[διαθέσιμη οnline](https://docs.google.com/document/d/1PEZwhohGAeFkBqH5iaG1JW3EGzifpJ7Lw-ZK8wX5W00/edit?usp=sharing)] |
-| 9-13 | Εργασία. Τα θέματα θα αποφασιστούν σε συνεννόηση με τον διδάσκοντα. Ενδεικτικά: Προσαρμοσμένες προσθήκες/επεκτάσεις του Kubernetes, υλοποίηση ολοκληρωμένης εφαρμογής στο Kubernetes με αυτόματη κλιμάκωση, χρήση APIs του Cloud για αυτόματη εκτέλεση εφαρμογών, κτλ. |
+| 9-13 | Εργασία. Τα θέματα θα αποφασιστούν σε συνεννόηση με τον διδάσκοντα. Ενδεικτικά: Παρουσίαση και demo κάποιου CNCF project, προσαρμοσμένες προσθήκες/επεκτάσεις του Kubernetes, υλοποίηση ολοκληρωμένης εφαρμογής στο Kubernetes με αυτόματη κλιμάκωση, χρήση APIs του Cloud για αυτόματη εκτέλεση εφαρμογών, κτλ. |
 
 # Τρόπος Αξιολόγησης
 
