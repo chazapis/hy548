@@ -79,11 +79,11 @@ Containers και Kubernetes:
 * Chaos Engineering: Chaos Engineering. Ali Basiri, Niosha Behnam, Ruud de Rooij, Lorin Hochstein, Luke Kosewski, Justin Reynolds, Casey Rosenthal. IEEE Software, vol. 33, no. 3, pp. 35-41, May-June 2016 [[διαθέσιμο online](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7436642)]
 
 # Ασκήσεις
-
+https://docs.google.com/document/d/1pZR0EYSEoTedwCQeQ2SEzHpBks7ZeYmZyI0DKHV-t68/edit
 | Εβδομάδα | Σύντομη περιγραφή |
 |---|---|
 | 1-2 | Άσκηση 1 (Βασικές λειτουργίες του Docker) [[διαθέσιμη οnline](https://docs.google.com/document/d/1CYbA4eMDjy7WWEh5E5PY5DCMaEoVsfChLhlhG7RBE4o/edit?usp=sharing)] |
-| 3-4 | Άσκηση 2 (Βασικές λειτουργίες του Kubernetes) |
+| 3-4 | Άσκηση 2 (Βασικές λειτουργίες του Kubernetes) [[διαθέσιμη οnline](https://docs.google.com/document/d/1pZR0EYSEoTedwCQeQ2SEzHpBks7ZeYmZyI0DKHV-t68/edit?usp=sharing)] |
 | 5-6 | Άσκηση 3 (Κλιμάκωση εφαρμογών στο Kubernetes) |
 | 7-8 | Άσκηση 4 (Επεκτάσεις του Kubernetes) |
 | 9-13 | Εργασία. Τα θέματα θα αποφασιστούν σε συνεννόηση με τον διδάσκοντα. Ενδεικτικά: Παρουσίαση και demo κάποιου CNCF project, προσαρμοσμένες προσθήκες/επεκτάσεις του Kubernetes, υλοποίηση ολοκληρωμένης εφαρμογής στο Kubernetes με αυτόματη κλιμάκωση, χρήση APIs του Cloud για αυτόματη εκτέλεση εφαρμογών, κτλ. |
@@ -95,3 +95,5 @@ Containers και Kubernetes:
 | Συμμετοχή | 15% |
 | Ασκήσεις | 60% (4 * 15%) |
 | Εργασία | 25% |
+
+Απαιτείται βαθμολόγηση και στις τρεις κατηγορίες (συμμετοχή, άσκηση και εργασία).
