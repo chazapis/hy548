@@ -19,10 +19,7 @@ Prerequisites
 : CS-335 (Computer Networks), CS-345 (Operating Systems) or permission from the instructor
 
 Lecture schedule
-: Monday and Wednesday 14:00-16:00, in room H.206 (spring semester 2022)
-
-Office hours
-: Wednesday 13:00-14:00, in office K319 (spring semester 2022)
+: Monday and Wednesday 14:00-16:00, in room H.206 (spring semester 2023)
 
 Contact:
 : hy548_at_csd.uoc.gr (instructor), hy548-list_at_csd.uoc.gr
@@ -84,8 +81,8 @@ Selected Publications on Specific Relevant Topics:
 |---|---|
 | 1-2 | Assignment 1 (Basic Docker operations) [[available οnline](https://docs.google.com/document/d/1CYbA4eMDjy7WWEh5E5PY5DCMaEoVsfChLhlhG7RBE4o/edit?usp=sharing)] |
 | 3-4 | Assignment 2 (Basic Kubernetes operations) [[available οnline](https://docs.google.com/document/d/1pZR0EYSEoTedwCQeQ2SEzHpBks7ZeYmZyI0DKHV-t68/edit?usp=sharing)] |
-| 5-6 | Assignment 3 (Scaling applications in Kubernetes) |
-| 7-8 | Assignment 4 (Kubernetes extensions) |
+| 5-6 | Assignment 3 (Scaling applications in Kubernetes) [[available οnline](https://docs.google.com/document/d/1abapoLZQYAE7-xxr0UOiY0nXzuCg6biJYSwJTyo6xJE/edit?usp=sharing)] |
+| 7-8 | Assignment 4 (Kubernetes extensions) [[available οnline](https://docs.google.com/document/d/1PEZwhohGAeFkBqH5iaG1JW3EGzifpJ7Lw-ZK8wX5W00/edit?usp=sharing)] |
 | 9-13 | Project. Titles will be decided in agreement with the instructor. Indicative subjects: Presentation and demo of some CNCF project, custom additions/extensions to Kubernetes, complete application implementation on Kubernetes with auto-scaling, use of Cloud APIs for automated application deployment, etc. |
 
 # Marking scheme
@@ -96,4 +93,4 @@ Selected Publications on Specific Relevant Topics:
 | Assignments | 60% (4 * 15%) |
 | Project | 25% |
 
-A grade is required in all three categories (participation, assignments and project).
+A grade is required in all three categories (participation, assignments, and project).
