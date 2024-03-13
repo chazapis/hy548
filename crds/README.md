@@ -6,7 +6,7 @@ This is an example showcasing custom resources in Kubernetes. We also build a ve
 
 Start minikube, setup, and create the CRD:
 ```
-minikube start --kubernetes-version=1.22.4
+minikube start --kubernetes-version=1.28.3
 kubectl apply -f greeting-crd.yaml
 ```
 

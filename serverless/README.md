@@ -6,7 +6,7 @@ This is an example on how to run serverless functions using [Fission](https://fi
 
 Start minikube, setup and install software with [Helm](https://helm.sh):
 ```
-minikube start --kubernetes-version=1.22.4 --extra-config=kubelet.housekeeping-interval=10s
+minikube start --kubernetes-version=1.28.3
 minikube addons enable ingress
 minikube addons enable metrics-server
 
@@ -46,7 +46,7 @@ You can also monitor the CPU usage inside minikube with:
 minikube ssh top
 ```
 
-You can change the metrics resolution by running the following, and setting `--metric-resolution=5s` in the container args:
+You can change the metrics resolution by running the following, and setting `--metric-resolution=10s` in the container args:
 ```
 kubectl -n kube-system edit deployments.apps metrics-server
 ```
