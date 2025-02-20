@@ -19,7 +19,7 @@ date: 2021-12-24T18:15:26+02:00
 : HY-335 (Δίκτυα Υπολογιστών), HY-345 (Λειτουργικά Συστήματα) ή άδεια του διδάσκοντα
 
 Πρόγραμμα διαλέξεων
-: Δευτέρα και Τετάρτη 14:00-16:00, στην αίθουσα Η.206 (εαρινό εξάμηνο 2023)
+: Δευτέρα και Τετάρτη 14:00-16:00, στην αίθουσα Η.206 (εαρινό εξάμηνο 2025)
 
 Επικοινωνία:
 : hy548_at_csd.uoc.gr (διδάσκων), hy548-list_at_csd.uoc.gr
@@ -80,9 +80,9 @@ Containers και Kubernetes:
 | Εβδομάδα | Σύντομη περιγραφή |
 |---|---|
 | 1-2 | Άσκηση 1 (Βασικές λειτουργίες του Docker) [[διαθέσιμη οnline](https://docs.google.com/document/d/1CYbA4eMDjy7WWEh5E5PY5DCMaEoVsfChLhlhG7RBE4o/edit?usp=sharing)] |
-| 3-4 | Άσκηση 2 (Βασικές λειτουργίες του Kubernetes) [[διαθέσιμη οnline](https://docs.google.com/document/d/1pZR0EYSEoTedwCQeQ2SEzHpBks7ZeYmZyI0DKHV-t68/edit?usp=sharing)] |
-| 5-6 | Άσκηση 3 (Κλιμάκωση εφαρμογών στο Kubernetes) [[διαθέσιμη online](https://docs.google.com/document/d/1abapoLZQYAE7-xxr0UOiY0nXzuCg6biJYSwJTyo6xJE/edit?usp=sharing)] |
-| 7-8 | Άσκηση 4 (Επεκτάσεις του Kubernetes) [[διαθέσιμη online](https://docs.google.com/document/d/1PEZwhohGAeFkBqH5iaG1JW3EGzifpJ7Lw-ZK8wX5W00/edit?usp=sharing)] |
+| 3-4 | Άσκηση 2 (Βασικές λειτουργίες του Kubernetes) |
+| 5-6 | Άσκηση 3 (Κλιμάκωση εφαρμογών στο Kubernetes) |
+| 7-8 | Άσκηση 4 (Επεκτάσεις του Kubernetes) |
 | 9-13 | Εργασία. Τα θέματα θα αποφασιστούν σε συνεννόηση με τον διδάσκοντα. Ενδεικτικά: Παρουσίαση και demo κάποιου CNCF project, προσαρμοσμένες προσθήκες/επεκτάσεις του Kubernetes, υλοποίηση ολοκληρωμένης εφαρμογής στο Kubernetes με αυτόματη κλιμάκωση, χρήση APIs του Cloud για αυτόματη εκτέλεση εφαρμογών, κτλ. |
 
 # Τρόπος Αξιολόγησης
