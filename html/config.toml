@@ -1,7 +1,7 @@
 baseURL = "/"
 relativeURLs = true
 canonifyURLs = true
-disableKinds = ["taxonomy", "taxonomyTerm", "sitemap"]
+disableKinds = ["taxonomy", "sitemap"]
 defaultContentLanguage = "el"
 theme = "cactus"
 
