@@ -81,7 +81,7 @@ Selected Publications on Specific Relevant Topics:
 |---|---|
 | 1-2 | Assignment 1 (Basic Docker operations) [[available οnline](https://docs.google.com/document/d/1CYbA4eMDjy7WWEh5E5PY5DCMaEoVsfChLhlhG7RBE4o/edit?tab=t.0)] |
 | 3-4 | Assignment 2 (Basic Kubernetes operations) [[available οnline](https://docs.google.com/document/d/1pZR0EYSEoTedwCQeQ2SEzHpBks7ZeYmZyI0DKHV-t68/edit?tab=t.0)] |
-| 5-6 | Assignment 3 (Scaling applications in Kubernetes) |
+| 5-6 | Assignment 3 (Scaling applications in Kubernetes) [[available οnline](https://docs.google.com/document/d/1abapoLZQYAE7-xxr0UOiY0nXzuCg6biJYSwJTyo6xJE/edit?tab=t.0)] |
 | 7-8 | Assignment 4 (Kubernetes extensions) |
 | 9-13 | Project. Titles will be decided in agreement with the instructor. Indicative subjects: Presentation and demo of some CNCF project, custom additions/extensions to Kubernetes, complete application implementation on Kubernetes with auto-scaling, use of Cloud APIs for automated application deployment, etc. |
 
