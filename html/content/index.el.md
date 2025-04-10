@@ -82,7 +82,7 @@ Containers και Kubernetes:
 | 1-2 | Άσκηση 1 (Βασικές λειτουργίες του Docker) [[διαθέσιμη οnline](https://docs.google.com/document/d/1CYbA4eMDjy7WWEh5E5PY5DCMaEoVsfChLhlhG7RBE4o/edit?tab=t.0)] |
 | 3-4 | Άσκηση 2 (Βασικές λειτουργίες του Kubernetes) [[διαθέσιμη οnline](https://docs.google.com/document/d/1pZR0EYSEoTedwCQeQ2SEzHpBks7ZeYmZyI0DKHV-t68/edit?tab=t.0)] |
 | 5-6 | Άσκηση 3 (Κλιμάκωση εφαρμογών στο Kubernetes) [[διαθέσιμη οnline](https://docs.google.com/document/d/1abapoLZQYAE7-xxr0UOiY0nXzuCg6biJYSwJTyo6xJE/edit?tab=t.0)] |
-| 7-8 | Άσκηση 4 (Επεκτάσεις του Kubernetes) |
+| 7-8 | Άσκηση 4 (Επεκτάσεις του Kubernetes) [[διαθέσιμη οnline](https://docs.google.com/document/d/1PEZwhohGAeFkBqH5iaG1JW3EGzifpJ7Lw-ZK8wX5W00/edit?tab=t.0)] |
 | 9-13 | Εργασία. Τα θέματα θα αποφασιστούν σε συνεννόηση με τον διδάσκοντα. Ενδεικτικά: Παρουσίαση και demo κάποιου CNCF project, προσαρμοσμένες προσθήκες/επεκτάσεις του Kubernetes, υλοποίηση ολοκληρωμένης εφαρμογής στο Kubernetes με αυτόματη κλιμάκωση, χρήση APIs του Cloud για αυτόματη εκτέλεση εφαρμογών, κτλ. |
 
 # Τρόπος Αξιολόγησης
