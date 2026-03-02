@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
       - name: hello-kubernetes
-        image: paulbouwer/hello-kubernetes:1.9
+        image: carvicsforth/hello-kubernetes:1.10
