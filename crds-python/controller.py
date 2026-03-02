@@ -45,7 +45,7 @@ spec:
     spec:
       containers:
       - name: hello-kubernetes
-        image: paulbouwer/hello-kubernetes:1.10
+        image: carvicsforth/hello-kubernetes:1.10
         env:
         - name: MESSAGE
           value: {{ message }}

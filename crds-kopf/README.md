@@ -1,4 +1,4 @@
-# CRD example in minikube
+# CRD example in minikube (using Kopf)
 
 This is an example showcasing custom resources in Kubernetes. We also build a very simple controller to work on the new CustomResourceDefinition.
 
@@ -39,7 +39,7 @@ kubectl delete greeting hello-to-all
 
 Start the controller (within the Python environment):
 ```
-./controller.py
+kopf run controller.py --verbose
 ```
 
 When you add a new "greeting", the controller should start a service. Removing a greeting will result in removing the corresponding service.
