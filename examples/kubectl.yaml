@@ -6,6 +6,6 @@ metadata:
 spec:
   containers:
   - name: kubectl
-    image: bitnami/kubectl:1.22
+    image: bitnami/kubectl:latest
     command: ["sleep"]
     args: ["infinity"]
